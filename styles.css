@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: aliceblue;
+}
+
+.nav{
+    height: 60px;
+    background-color: #1597bb;
+    display: flex;
+    
+}
+.nav>h3{
+    margin: 20px 400px 0px 15px;
+}
+button{
+    height:30px;
+    margin: 15px 0px 0px 40px;
+    border-radius: 5px;
+    border: none;
+    color: #1597bb;
+}
+.nav>a{
+    text-decoration: none;
+    margin: 20px 0px 0px 50px;
+}
+
+.text{ 
+    font-size: larger;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+.text>p{
+    font-weight: 400;
+}
+header{
+    height: 60vh;
+    overflow: hidden;
+    border: 2px solid red;
+    background-image: url(/Project2/images/photo_2023-10-04_14-26-07.jpg);
+}
+
+header>img{
+    width: 100%;
+}
+ a>img{
+    width: 10%;
+ }
