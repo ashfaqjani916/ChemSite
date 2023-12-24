@@ -76,7 +76,7 @@ button:hover{
 .banner{
     width: 100vw;
     height: 400px;
-    background: url(images/photo_2023-10-04_14-26-07.jpg);
+    background: url(/images/photo_2023-10-04_14-26-07.jpg);
 }
 svg{
     position: absolute;
