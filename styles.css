@@ -2,7 +2,6 @@
     margin: 0;
     background-color: aliceblue;
 }
-
 .nav{
     background-color: #1597BB;
     width: 100vw;
@@ -34,7 +33,6 @@
     color: aliceblue;
     font-size: larger;
 }
-
 .menu > button
 {
     font-weight: bold;
@@ -46,4 +44,55 @@
 button:hover{
     background-color: #055970;
     color: aliceblue;
+}
+
+.banner>h1{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: none;
+    color: aliceblue;
+    font-family: Georgia;
+    font-size: xx-large;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    
+}
+.banner> p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: none;
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner{
+    width: 100vw;
+    height: 400px;
+    background: url(/images/photo_2023-10-04_14-26-07.jpg);
+}
+svg{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+body{
+    height: 2048px;
+    width: 100vw;
+}
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color:#1597BB;
+    position: relative; bottom: -1448px;
 }
