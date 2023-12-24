@@ -1,65 +1,49 @@
 *{
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin: 0;
+    background-color: aliceblue;
 }
 
 .nav{
-    height: 60px;
-    background-color: #1597bb;
+    background-color: #1597BB;
+    width: 100vw;
+    height: 10vh;
     display: flex;
-    color: aliceblue;
-    
 }
-.nav>h3{
-    margin: 20px 600px 0px 15px;
+.nav > div{
+    background: #1597BB;
 }
-button{
-    height:30px;
-    margin: 15px 0px 0px 40px;
-    border-radius: 5px;
-    border: none;
-    color: #1597bb;
-}
-.nav>a{
-    color: aliceblue;
+.logo >h3{
     text-decoration: none;
-    margin: 20px 0px 0px 50px;
-}
-.text{ 
-    font-size: larger;
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 80px;
-    line-height: 35px;
-    font-weight: 500px;
     color: aliceblue;
-
+    background-color: #1597BB;
+    font-size: xx-large;
+    margin: 15px 0 0 15px;
 }
-.text>p{
-    font-weight: 400;
+.middle{
+    width: 40%;
 }
-header{
-    height: 60vh;
-    overflow: hidden;
-    background-image: url(images/photo_2023-10-04_14-26-07.jpg);
-    color: aliceblue;
-}
-
-header>img{
-    width: 100%;
-}
-
-section{
-    margin: 40px;
-}
-section>h2{
-    margin: 30px;
-}
-.currentresearch>p{
-    width: 50%;
-}
-.currentresearch{
-
+.menu{
+    width: 60%;
     display: flex;
+    margin: 1.5%;
+    justify-content: space-around;
+}
+.menu > a{
+    text-decoration: none;
+    background: #1597BB;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.menu > button
+{
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #1597BB;
+    border: none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #055970;
+    color: aliceblue;
 }
